@@ -11,7 +11,7 @@ export type Expense = {
   name: string
   project: string
   cost: number
-  billing: "monthly" | "yearly"
+  billing: "monthly" | "yearly" | "one-time"
   category: string
   created_at: string
   updated_at: string
